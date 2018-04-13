@@ -1409,7 +1409,7 @@ public class ScriptRuntime {
     public static long testUint32String(String str)
     {
         // The length of the decimal string representation of
-        //  UINT32_MAX_VALUE, 4294967296
+        //  UINT32_MAX_VALUE, 4294967295
         final int MAX_VALUE_LENGTH = 10;
 
         int len = str.length();
